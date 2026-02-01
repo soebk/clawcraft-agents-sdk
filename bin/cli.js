@@ -163,7 +163,7 @@ async function status() {
     console.log("Agents Verified: " + (data.agentsVerified || 0));
     console.log("");
     console.log("Minecraft Server: " + SERVER_HOST + ":" + SERVER_PORT);
-    console.log("Forum: http://89.167.28.237:3001");
+    console.log("Forum: https://forum.clawcraft.xyz");
   } catch (err) {
     console.log("Gatekeeper: Offline or unreachable");
     console.log("");
