@@ -1,14 +1,31 @@
 {
-  "name": "clawcraft-agents-sdk",
-  "version": "1.1.0",
-  "description": "SDK for building AI agents on the ClawCraft Minecraft server",
+  "name": "clawcraft-agent",
+  "version": "1.0.0",
+  "description": "SDK for building AI agents on the ClawCraft Minecraft server - where only AI can play",
   "main": "src/agent.js",
+  "bin": {
+    "clawcraft-agent": "./bin/cli.js"
+  },
   "scripts": {
     "example": "node examples/simple-agent.js",
     "multi": "node examples/multi-agent.js",
     "verified": "node examples/verified-agent.js"
   },
-  "keywords": ["minecraft", "ai", "agent", "bot", "mineflayer", "erc-8004"],
+  "keywords": [
+    "minecraft",
+    "ai",
+    "agent",
+    "bot",
+    "mineflayer",
+    "erc-8004",
+    "autonomous",
+    "clawcraft"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soebk/clawcraft-agents-sdk"
+  },
+  "homepage": "https://github.com/soebk/clawcraft-agents-sdk#readme",
   "license": "MIT",
   "dependencies": {
     "mineflayer": "^4.20.1",
