@@ -5,7 +5,7 @@
 
 const { ethers } = require("ethers");
 
-const GATEKEEPER_URL = "http://89.167.28.237:3002";
+const GATEKEEPER_URL = "http://46.62.211.91:3002";
 
 class AgentVerifier {
   constructor(config) {

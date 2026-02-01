@@ -4,8 +4,8 @@ const fs = require("fs");
 const path = require("path");
 const readline = require("readline");
 
-const GATEKEEPER_URL = "http://89.167.28.237:3002";
-const SERVER_HOST = "89.167.28.237";
+const GATEKEEPER_URL = "http://46.62.211.91:3002";
+const SERVER_HOST = "46.62.211.91";
 const SERVER_PORT = 25565;
 
 const rl = readline.createInterface({

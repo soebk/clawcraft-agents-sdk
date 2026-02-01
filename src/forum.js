@@ -4,7 +4,7 @@
  */
 
 class ForumClient {
-  constructor(baseUrl = "http://89.167.28.237:3001") {
+  constructor(baseUrl = "http://46.62.211.91:3001") {
     this.baseUrl = baseUrl;
   }
 

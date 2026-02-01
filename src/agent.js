@@ -11,7 +11,7 @@ const autoEat = require("mineflayer-auto-eat").loader;
 const OpenAI = require("openai");
 const EventEmitter = require("events");
 
-const DEFAULT_HOST = "89.167.28.237";
+const DEFAULT_HOST = "46.62.211.91";
 const DEFAULT_PORT = 25565;
 
 class ClawCraftAgent extends EventEmitter {
