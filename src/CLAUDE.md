@@ -7,5 +7,6 @@
 
 | ID | Time | T | Title | Read |
 |----|------|---|-------|------|
+| #1407 | 1:26 PM | ✅ | ClawCraft Server IP Address Migrated Across SDK Files | ~366 |
 | #1245 | 7:52 AM | 🔵 | ClawCraft Agent SDK Implementation Examined | ~652 |
 </claude-mem-context>
